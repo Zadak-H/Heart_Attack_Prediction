@@ -39,7 +39,7 @@ The model predicted heart disease––which featured ~0.96 recall while still r
 
 ### Conclusions
 
-By (1) list-wise removing missing data; (2) converting the classification problem to a binary one and standardizing features; and (3) manually setting the probability threshold for disease detection to 0.35, I was able to achieve **0.95 recall** and **0.89 accuracy** from my best model, a soft voting ensemble classifier made up of a linear SVM, logistic regression classifier, and an AdaBoost classifier.
+By (1) list-wise removing missing data; (2) converting the classification problem to a binary one and standardizing features; and (3) manually setting the probability threshold for disease detection to 0.35, I was able to achieve **0.95 recall** and **0.95 accuracy** from my best model, a soft voting ensemble classifier made up of a guassianNB, logistic regression classifier, and an AdaBoost classifier.
 
 ## Libraries
 
