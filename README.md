@@ -14,6 +14,8 @@ Features were standardized and then analyzed for correlation among each other us
 
 none of my features are so highly correlated with each other. I keep the next seven most significant features, none of which are egregiously correlated with each other, for my final set of features.
 
+![Histrogram of Attributes](output/histogram.png)
+
 ### Model Training
 
 Models were evaluated primarily for their recall, given the healthcare setting, while still trying to maintain modestly high accuracy and precision. Nine models were trained.
