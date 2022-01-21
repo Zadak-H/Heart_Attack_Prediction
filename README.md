@@ -14,8 +14,6 @@ Features were standardized and then analyzed for correlation among each other us
 
 none of my features are so highly correlated with each other. I keep the next seven most significant features, none of which are egregiously correlated with each other, for my final set of features.
 
-![Histograms for final, preprocessed predictors](output/heatmap.png)
-
 ### Model Training
 
 Models were evaluated primarily for their recall, given the healthcare setting, while still trying to maintain modestly high accuracy and precision. Nine models were trained.
@@ -57,4 +55,4 @@ Due to the nature of the project, this project is not open to contributions. If,
 
 
 ## Acknowledgments
-Thanks to [Kaggle](https://www.kaggle.com) for access to data found in [Heart Disease Ensemble Classifier](https://www.kaggle.com/danimal/heartdiseaseensembleclassifier), and particular thanks to [Nathan S. Robinson](https://www.kaggle.com/iamkon/ml-models-performance-on-risk-prediction) for his work on the same dataset: it was beautifully organized, instructive, and a constant source of clarity and inspiration.
+Thanks to [Kaggle](https://www.kaggle.com) for access to data found in [Heart Disease Ensemble Classifier](https://www.kaggle.com/danimal/heartdiseaseensembleclassifier)
