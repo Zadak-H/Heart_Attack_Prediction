@@ -25,7 +25,7 @@ The model predicted heart disease––which featured ~0.96 recall while still r
 ### Results
 
 | Model | Final Test Accuracy |
-|-|-|-|
+|-|-|
 | AdaBoost (Base = GuassianNB) | **95%** |
 | Linear SVC | 89.5% |
 | GuassianNB | 88% |
