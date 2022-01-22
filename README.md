@@ -16,12 +16,18 @@ none of my features are so highly correlated with each other. I keep the next se
 
 ![Histrogram of Attributes](output/histogram.png)
 
+**Understanding the train dataset ** here i used Umap to plot the dataset in 2D graph
+![UMAP of Train Dataset](output/Umap_of_traindata.png)
+
 ### Model Training
 
 Models were evaluated primarily for their recall, given the healthcare setting, while still trying to maintain modestly high accuracy and precision. Nine models were trained.
 The model predicted heart disease––which featured ~0.96 recall while still retaining a relative maximum in accuracy ~0.95. Confusion matrices for before and after threshold installed below.
 
 ![Confusion matrix](output/adaboost_using_gNB_cmatrix.png)
+
+Hare also i used ROC_Curve to understand the reslut more better
+![ROC Curve](output/Roc_curve.png)
 ### Results
 
 | Model | Final Test Accuracy |
