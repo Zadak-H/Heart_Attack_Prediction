@@ -33,15 +33,15 @@ Hare also i used ROC_Curve to understand the reslut more better
 | Model | Final Test Accuracy |
 |-|-|
 | AdaBoost (Base = GuassianNB) | **95%** |
-| Linear SVC | 89.5% |
-| GuassianNB | 88% |
-| BernoulliNB | 88% |
-| Decision Tree | 85.5% |
-| Random Forest | 88% |
+| Linear SVC | 93.4% |
+| GuassianNB | 88.5% |
+| BernoulliNB | 88.5% |
+| Decision Tree | 95% |
+| Random Forest | 95% |
 | AdaBoost (Base = Decision Tree) | 95% |
-| GradientBoost | 91.8% |
+| GradientBoost | 93.4% |
 | XGBoost | 93.4% |
-| KNN | 86% |
+| KNN | 88.5% |
 
 ### Conclusions
 
