@@ -16,7 +16,7 @@ none of my features are so highly correlated with each other. I keep the next se
 
 ![Histrogram of Attributes](output/histogram.png)
 
-**Understanding the train dataset ** here i used Umap to plot the dataset in 2D graph
+**Understanding the train dataset** here i used Umap to plot the dataset in 2D graph
 ![UMAP of Train Dataset](output/Umap_of_traindata.png)
 
 ### Model Training
