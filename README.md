@@ -28,11 +28,18 @@ The model predicted heart disease––which featured ~0.96 recall while still r
 
 Hare also i used ROC_Curve to understand the reslut more better
 ![ROC Curve](output/Roc_curve.png)
+
+Our model LGBM also have same accuracy and confussion matrix so the decision tree of LGBM is -
+![Decision Tree of LGBM](output/LGBM_tree.png)
+
+And also the Feature importance of LGBM is :
+![Feature Importance of LGBM](output/LGBM_featureimportance.png)
+
 ### Results
 
 | Model | Final Test Accuracy |
 |-|-|
-| AdaBoost (Base = GuassianNB) | **95%** |
+| **AdaBoost (Base = GuassianNB)** | **95%** |
 | Linear SVC | 93.4% |
 | GuassianNB | 88.5% |
 | BernoulliNB | 88.5% |
@@ -42,6 +49,7 @@ Hare also i used ROC_Curve to understand the reslut more better
 | GradientBoost | 93.4% |
 | XGBoost | 93.4% |
 | KNN | 88.5% |
+| **LGBM** | **95%** |
 
 ### Conclusions
 
