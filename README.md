@@ -2,7 +2,7 @@
 
 For machine learning project, I chose to build a binary classifier to predict [heart disease](https://www.kaggle.com/danimal/heartdiseaseensembleclassifier). Because this model has healthcare applications, the emphasis is on recall rather than accuracy or precision when evaluating model performance. I explore a variety of relatively simple classifiers (read: no neural networks)––Support Vector Machines, Decision Trees and Random Forests, AdaBoost and XGBoost, KNN, naive bayes, gradientboosting––and fine tune each to upwards of 85% recall on test data. My final model, an ensemble model of AdaBoost hypertunning with GuassianNB, combines some of the best models to achieve 95% recall on test data.
 
-### EDA and Preprocessing
+## EDA and Preprocessing
 
 Of the raw data of 303 patients, no null values ;
 
@@ -19,23 +19,23 @@ none of my features are so highly correlated with each other. I keep the next se
 **Understanding the train dataset** here i used Umap to plot the dataset in 2D graph
 ![UMAP of Train Dataset](output/Umap_of_traindata.png)
 
-### Model Training
+## Model Training
 
 Models were evaluated primarily for their recall, given the healthcare setting, while still trying to maintain modestly high accuracy and precision. Nine models were trained.
 The model predicted heart disease––which featured ~0.96 recall while still retaining a relative maximum in accuracy ~0.95. Confusion matrices for before and after threshold installed below.
 
 ![Confusion matrix](output/adaboost_using_gNB_cmatrix.png)
 
-Hare also i used ROC_Curve to understand the reslut more better
+### Hare also i used ROC_Curve to understand the reslut more better
 ![ROC Curve](output/Roc_curve.png)
 
-Our model LGBM also have same accuracy and confussion matrix so the decision tree of LGBM is -
+### Our model LGBM also have same accuracy and confussion matrix so the decision tree of LGBM is -
 ![Decision Tree of LGBM](output/LGBM_tree.png)
 
-And also the Feature importance of LGBM is :
+### And also the Feature importance of LGBM is :
 ![Feature Importance of LGBM](output/LGBM_featureimportance.png)
 
-### Results
+## Results
 
 | Model | Final Test Accuracy |
 |-|-|
@@ -51,7 +51,7 @@ And also the Feature importance of LGBM is :
 | KNN | 88.5% |
 | **LGBM** | **95%** |
 
-### Conclusions
+## Conclusions
 
 By (1) list-wise removing missing data; (2) converting the classification problem to a binary one and standardizing features; and (3) manually setting the probability threshold for disease detection to 0.35, I was able to achieve **0.96 recall** and **0.95 accuracy** from my best model, a soft voting ensemble classifier made up of a guassianNB, and an AdaBoost classifier. Also i have choose this model because of the confusion matrix which is more better than other nodels.
 
