@@ -40,16 +40,17 @@ The model predicted heart disease––which featured ~0.96 recall while still r
 | Model | Final Test Accuracy |
 |-|-|
 | **AdaBoost (Base = GuassianNB)** | **95%** |
-| Linear SVC | 93.4% |
-| GuassianNB | 88.5% |
-| BernoulliNB | 88.5% |
+| **LGBM** | **95%** |
 | Decision Tree | 95% |
 | Random Forest | 95% |
 | AdaBoost (Base = Decision Tree) | 95% |
+| Linear SVC | 93.4% |
 | GradientBoost | 93.4% |
 | XGBoost | 93.4% |
 | KNN | 88.5% |
-| **LGBM** | **95%** |
+| GuassianNB | 88.5% |
+| BernoulliNB | 88.5% |
+
 
 ## Conclusions
 
